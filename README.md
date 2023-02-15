@@ -8,3 +8,13 @@ You should have \
 2-Chrome\
 3-Loged in on Facebook/Linkedin\
 
+Video for FB version:\
+https://drive.google.com/file/d/1rKvvRy4iXa9UxlEutEZC0wKulvYnNRzs/view?usp=share_link \
+or\
+https://youtube.com/shorts/awOo8kEk7-Y?feature=share \
+
+
+Video for Linkedin version:\
+https://drive.google.com/file/d/1rXSSQ-5hAvTmjjZY7sRTQsmui_me3EtL/view?usp=sharing \
+or \
+https://youtube.com/shorts/zxY9vTe89oc?feature=share
