@@ -60,4 +60,4 @@ PostButton_Location = pyautogui.locateCenterOnScreen("5-PostButton.png", graysca
 while PostButton_Location == None:
     PostButton_Location = pyautogui.locateCenterOnScreen("5-PostButton.png", grayscale=True, confidence= 0.7)
 pyautogui.moveTo(PostButton_Location.x, PostButton_Location.y)
-#pyautogui.click()
+pyautogui.click()
