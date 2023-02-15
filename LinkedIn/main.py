@@ -32,7 +32,7 @@ while chromEnterURL_Location == None:
     chromEnterURL_Location = pyautogui.locateCenterOnScreen("3-chromEnterURL.png", grayscale=True, confidence= 0.5)
 pyautogui.moveTo(chromEnterURL_Location.x, chromEnterURL_Location.y)
 pyautogui.click()
-pyautogui.write("linkedin.com")
+pyautogui.write("www.linkedin.com", 0.01)
 time.sleep(0.3)
 pyautogui.hotkey('Enter')
 
