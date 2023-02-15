@@ -34,7 +34,7 @@ while chromEnterURL_Location == None:
     chromEnterURL_Location = pyautogui.locateCenterOnScreen("3-chromEnterURL.png", grayscale=True, confidence= 0.5)
 pyautogui.moveTo(chromEnterURL_Location.x, chromEnterURL_Location.y)
 pyautogui.click()
-pyautogui.write("facebook.com/")
+pyautogui.write("facebook.com", 0.01)
 time.sleep(0.1)
 pyautogui.hotkey('Enter')
 
@@ -67,8 +67,7 @@ pyautogui.moveTo(writeSomething_Location.x, writeSomething_Location.y)
 pyautogui.click()
 time.sleep(0.5)
 
-pyautogui.write('''
-Alsalam Alaykum
+pyautogui.write('''Alsalam Alaykum
 This post is written automatically by python script
 
 Late is better than never
@@ -83,3 +82,4 @@ while PostButton_Location == None:
     PostButton_Location = pyautogui.locateCenterOnScreen("7-PostButton.png", grayscale=True, confidence= 0.7)
 pyautogui.moveTo(PostButton_Location.x, PostButton_Location.y)
 pyautogui.click()
+ 
